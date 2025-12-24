@@ -1,6 +1,6 @@
 import Carousel from "./_components/HomeSlider/HomeSlider";
 import Card from "./_components/Card/Card";
-import { ProductPage } from "./(pages)/(main)/product/page";
+import Page from "./(pages)/(main)/product/page";
 import WhyChess from "./_components/WhyChess/WhyChess";
 import ServicesSupport from "./_components/ServicesSupport/ServicesSupport";
 import OurPromise from "./_components/OurPromise/OurPromise";
@@ -67,7 +67,7 @@ export default function Home() {
       </section>
 
       {/* Products */}
-      <ProductPage />
+      <Page />
 
       <WhyChess/>
 
@@ -77,3 +77,4 @@ export default function Home() {
     </div>
   );
 }
+
