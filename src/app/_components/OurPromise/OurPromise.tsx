@@ -4,7 +4,7 @@ export default function OurPromise() {
   return (
     <section
       id="contact"
-      className="bg-black text-[#fffbfb] px-6 md:px-20 py-12 scroll-mt-20"
+      className="bg-black text-[#fffbfb] px-6 md:px-20 py-6 md:py-12 scroll-mt-20"
     >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center border-t border-white/20 pt-20">
 

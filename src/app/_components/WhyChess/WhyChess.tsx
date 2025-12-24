@@ -28,7 +28,7 @@ const whyChessData: WhyItem[] = [
 
 export default function WhyChess() {
   return (
-    <section className="bg-black px-6 md:px-20 py-12">
+    <section className="bg-black px-6 md:px-20 py-6 md:py-12">
       
       {/* Section Header */}
       <div className="max-w-3xl mb-6">

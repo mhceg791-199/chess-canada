@@ -21,7 +21,7 @@ const servicesData: ServiceItem[] = [
 
 export default function ServicesSupport() {
   return (
-    <section className="bg-black px-6 md:px-20 py-12 scroll-mt-20" id="services">
+    <section className="bg-black px-6 md:px-20 py-6 md:py-12 scroll-mt-20" id="services">
       
       {/* Section Header */}
       <div className="max-w-3xl mb-6">

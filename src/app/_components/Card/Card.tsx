@@ -12,7 +12,7 @@ export default function Card() {
             {
                 [img1, img2, img3, img4, img5].map((img, i) => (
                     <div key={i} className='overflow-hidden rounded-sm border-6 border-black-500 relative group'>
-                        <Image src={img} alt='حضرموت و مشويات الخليج' className='animate-zoom-smooth' />
+                        <Image src={img} alt='chess' className='animate-zoom-smooth' />
                         <div className='absolute inset-0 bg-white/50 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
                             <Image src={logo} alt='logo' className='w-[50%]' />
                         </div>

@@ -105,7 +105,7 @@ export default function ProductShowcase() {
   return (
     <section
       id="products"
-      className="bg-black py-12 px-6 md:px-20 scroll-mt-20"
+      className="bg-black py-6 md:py-12 px-6 md:px-20 scroll-mt-20"
     >
       {/* Section Title */}
       <div className="mb-6 max-w-3xl">

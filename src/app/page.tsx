@@ -1,6 +1,6 @@
 import Carousel from "./_components/HomeSlider/HomeSlider";
 import Card from "./_components/Card/Card";
-import Page from "./(pages)/(main)/product/page";
+import ProductsPage from "./(pages)/(main)/product/page";
 import WhyChess from "./_components/WhyChess/WhyChess";
 import ServicesSupport from "./_components/ServicesSupport/ServicesSupport";
 import OurPromise from "./_components/OurPromise/OurPromise";
@@ -10,7 +10,7 @@ export default function Home() {
     <div className="home bg-black text-[#fffbfb]">
       
       {/* Hero Section */}
-      <section className="relative h-[83vh] w-full flex flex-col justify-center">
+      <section className="relative h-[70vh] md:h-[83vh] w-full flex flex-col justify-center">
         <div className="absolute inset-0 bg-home bg-cover bg-center opacity-20 z-0" />
 
         <div className="relative z-10 px-6 md:px-20">
@@ -40,7 +40,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="px-6 md:px-20 py-12 border-t border-white/10 scroll-mt-24" id="about">
+      <section className="px-6 md:px-20 py-6 md:py-12 border-t border-white/10 scroll-mt-24" id="about">
         <div className="max-w-4xl">
           <h2 className="text-2xl md:text-3xl tracking-widest mb-6">
             ABOUT CHESS
@@ -67,7 +67,7 @@ export default function Home() {
       </section>
 
       {/* Products */}
-      <Page />
+      <ProductsPage />
 
       <WhyChess/>
 
