@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "chess",
-  description: "chess",
+  description: "chess canada",
   manifest: "/manifest.json",
   icons: {
     icon: "/icons/logo.png",
