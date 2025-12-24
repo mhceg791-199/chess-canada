@@ -1,6 +1,6 @@
 import ProductShowcase from '@/app/_components/Product/ProductShowcase'
 
-export default function ProductsPage() {
+export default function Page() {
   return (
     <ProductShowcase />
   )
