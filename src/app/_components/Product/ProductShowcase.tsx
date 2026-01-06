@@ -35,13 +35,13 @@ const products: Product[] = [
     id: 6,
     name: "CHESS Freezers",
     category: "Home Appliances & Electronics",
-    image: "/products/freezers.avif",
+    image: "/products/freezers.jpg",
   },
   {
     id: 7,
     name: "CHESS Microwaves",
     category: "Home Appliances & Electronics",
-    image: "/products/microwaves.avif",
+    image: "/products/microwaves.jpg",
   },
   {
     id: 8,
@@ -53,19 +53,19 @@ const products: Product[] = [
     id: 9,
     name: "CHESS Stoves",
     category: "Home Appliances & Electronics",
-    image: "/products/stove.avif",
+    image: "/products/stove.jpg",
   },
   {
     id: 10,
     name: "CHESS Dryers",
     category: "Home Appliances & Electronics",
-    image: "/products/dryer.avif",
+    image: "/products/dryer.jpg",
   },
   {
     id: 11,
     name: "CHESS Hood Fans",
     category: "Home Appliances & Electronics",
-    image: "/products/hood.avif",
+    image: "/products/hood-v2.jpg",
   },
   {
     id: 12,
@@ -89,7 +89,7 @@ const products: Product[] = [
     id: 16,
     name: "CHESS Bathroom & Kitchen Mixers",
     category: "Kitchen & Bathroom Solutions",   
-    image: "/products/mixer.avif",
+    image: "/products/mixer.jpg",
   },
   {
     id: 17,
