@@ -95,7 +95,7 @@ const products: Product[] = [
     id: 17,
     name: "CHESS Electronic Toilets",
     category: "Kitchen & Bathroom Solutions",   
-    image: "/products/toilet.webp",
+    image: "/products/toilet.jpg",
   },
 ];
 
